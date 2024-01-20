@@ -1,0 +1,676 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.head .about ul {
+  cursor: pointer;
+  display: flex;
+  gap: 30px;
+}
+
+.head .about ul li {
+  list-style: none;
+}
+
+.head .about ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  width: 130px;
+  height: 40px;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.head .about ul li a:hover {
+  transition: 0.4s;
+  color: white;
+  background-color: #d43157;
+}
+
+.head .about ul li:nth-child(3) {
+  border: 1px solid rgb(155, 153, 153);
+  border-bottom: none;
+  height: 20px;
+  border-top: none;
+  border-right: none;
+  margin-top: 15px;
+}
+
+.head .about ul li:nth-child(3) a {
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.head .icon {
+  margin-left: 100px;
+  display: flex;
+  gap: 30px;
+}
+
+.head .icon p {
+  margin-top: 10px;
+  opacity: 0.5;
+}
+
+.head .icon .question {
+  cursor: pointer;
+  width: 45px;
+  height: 40px;
+  border-radius: 35px;
+  border: #d43157 solid 1px;
+  margin-top: 4px;
+}
+
+.head .icon .question i {
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+  padding: 6px;
+}
+
+.head .icon .mood {
+  cursor: pointer;
+  width: 70px;
+  height: 40px;
+  border-radius: 35px;
+  border: #d43157 solid 1px;
+  margin-top: 4px;
+}
+
+.head .icon .mood i {
+  justify-content: center;
+  margin-top: 13px;
+  padding: 6px;
+}
+
+.head .icon .language {
+  display: flex;
+  cursor: pointer;
+  width: 70px;
+  height: 40px;
+  border-radius: 35px;
+  border: #d43157 solid 1px;
+  margin-top: 4px;
+}
+
+.head .icon .language i {
+  justify-content: center;
+  margin-top: 10px;
+  padding: 6px;
+}
+
+.head .icon .language span {
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: #d43157;
+}
+
+#nav {
+  background-color: #d43157;
+  height: 500px;
+  width: 100%;
+}
+
+#nav .background .catalog .logo img {
+  height: 60px;
+  width: 60px;
+  margin-left: 40px;
+}
+
+#nav .background .catalog {
+  display: flex;
+  gap: 30px;
+}
+
+#nav .background .catalog .tariffs ul {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+#nav .background .catalog .tariffs a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav .background .search {
+  width: 50px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#nav .background .search i {
+  margin-top: 23px;
+  margin-left: 15px;
+}
+
+#nav .background .right {
+  display: flex;
+  gap: 50px;
+}
+
+#nav .background .right .for-more {
+  margin-top: 10px;
+  width: 130px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#nav .background .right .for-more a {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #d43157;
+}
+
+#nav .background .main-left {
+  margin-top: 100px;
+  margin-left: 30px;
+  color: white;
+}
+
+#nav .background .main-left h1 {
+  font-size: 50px;
+}
+
+#nav .background .main-left p {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#nav .background .main-left button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  color: #d43157;
+  border: none;
+  transition: 0.4s;
+}
+
+#nav .background .main-left button:hover {
+  color: black;
+
+  border: #d43157 1px solid;
+}
+
+#nav .background .image img {
+  width: 400px;
+  height: 350px;
+  margin-top: 90px;
+}
+
+#nav .background .main-left .side {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+#nav .background .main-left .side .icon {
+  border: 1px solid white;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+#nav .background .main-left .side .icon i {
+  padding: 15px;
+  margin-top: 10px;
+}
+#nav .background .main-left .side .icon:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+#card .detail {
+  font-size: 70px;
+  margin-top: 100px;
+}
+
+.mastercard .card img {
+  height: 150px;
+  width: 100%;
+}
+.mastercard .card {
+  height: 530px;
+}
+.mastercard {
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.mastercard .text {
+  position: relative;
+  bottom: 130px;
+  left: 20px;
+  color: white;
+}
+.mastercard .text2 {
+  display: flex;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #dd5a79;
+}
+.mastercard .text2 h2 {
+  padding: 5px;
+  margin-left: 10px;
+}
+.mastercard .text2 p {
+  margin-top: 15px;
+}
+.mastercard .img img {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  bottom: 130px;
+}
+.mastercard .main {
+  position: absolute;
+  top: 150px;
+}
+.mastercard .card-body .card-title {
+  display: flex;
+}
+.mastercard .main .card-body {
+  display: flex;
+  gap: 50px;
+  border: #dd5a79 4px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-left: 5px;
+}
+.mastercard .main .burn {
+  width: 350px;
+  height: 50px;
+  background-color: #f8ced8;
+  border-radius: 10px;
+}
+.mastercard .main .burn .image {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+  gap: 10px;
+  padding: 5px;
+}
+.mastercard .main .burn .image img {
+  width: 30px;
+  height: 30px;
+}
+.mastercard .main .burn .image h5 {
+  opacity: 0.7;
+}
+.mastercard .main .more {
+  margin-top: 30px;
+}
+.mastercard .main .more button {
+  width: 320px;
+  height: 50px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 20px;
+  color: #d43157;
+  border: #d43157 1px solid;
+}
+.mastercard .main .more button:hover {
+  color: #000000;
+  border: #000000 1px solid;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+#balancetop .back {
+  margin-top: 100px;
+  background-color: #f8ced8;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+}
+#balancetop .back h1 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#balancetop .back .number {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#balancetop .back .number input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+}
+#balancetop .back .topup {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#balancetop .back .topup input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+}
+#balancetop .back .button {
+  margin-left: 30px;
+  margin-top: 50px;
+}
+#balancetop .back .button button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #d43157;
+  border-radius: 20px;
+  border: none;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+#balancetop .back .button button:hover {
+  opacity: 1;
+}
+#balancetop .back .prestige {
+  background-image: url(./image/connect-eSIM-mobile.png);
+  width: 600px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+#balancetop .back .prestige .head {
+  color: white;
+}
+#balancetop .back .prestige .click button {
+  width: 100px;
+  height: 50px;
+  color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #e4acb9;
+  margin-top: 30px;
+}
+#balancetop .back .prestige .click {
+  margin-left: 30px;
+}
+#balancetop .back .prestige .num {
+  border: 1px solid #e4acb9;
+  width: 500px;
+  height: 60px;
+  margin-left: 40px;
+  margin-top: 100px;
+  border-radius: 20px;
+  justify-content: space-between;
+  display: flex;
+  background-color: #e4acb9;
+}
+#balancetop .back .prestige .num i {
+  margin-right: 20px;
+  margin-top: 7px;
+  margin-left: 20px;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #d43157;
+  border-radius: 50px;
+  padding: 20px;
+  cursor: pointer;
+}
+#balancetop .back .prestige .num b {
+  font-size: 30px;
+  margin-right: 60px;
+  margin-top: 7px;
+  border: 1px #d43157 solid;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  width: 270px;
+  height: 40px;
+}
+#balancetop .back .prestige .num h3 {
+  margin-top: 15px;
+  margin-right: 10px;
+  color: #d43157;
+  font-size: 20px;
+}
+#balancetop .back .prestige .for-more {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+#balancetop .back .prestige .for-more button {
+  width: 250px;
+  height: 50px;
+  color: white;
+  background-color: #e28ca0;
+  border-radius: 20px;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+#balancetop .back .prestige .for-more button:hover {
+  background-color: #ec6987;
+}
+#join .join-img {
+  background-color: #d43157;
+  width: 94%;
+  height: 400px;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+#join .join-img .nar-join h2 {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+}
+#join .join-img .nar-join p {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+}
+#join .join-img .nar-join button {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 150px;
+  margin-left: 30px;
+  color: #d43157;
+  border: none;
+  transition: 0.3s;
+}
+#join .join-img .nar-join button:hover {
+  background-color: #751f33;
+}
+#join .join-img img {
+  margin-top: 7px;
+  margin-left: 100px;
+}
+#app .lingo h1 {
+  margin-top: 100px;
+  margin-left: 120px;
+}
+#app .lingo .lingo-card {
+  width: 350px;
+  height: 400px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+}
+#app .lingo .lingo-card .up {
+  display: flex;
+  gap: 30px;
+  margin-left: 30px;
+}
+#app .lingo .lingo-card .up .img {
+  margin-top: 30px;
+}
+#app .lingo .lingo-card .up .text {
+  font-size: 30px;
+  margin-top: 30px;
+}
+#app .lingo .lingo-card .down-text {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+#app .lingo .lingo-card .button button {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid #d43157;
+  background-color: white;
+  color: #d43157;
+  transition: 0.3s;
+}
+#app .lingo .lingo-card .button button:hover {
+  background-color: #d43157;
+  color: white;
+}
+#app .lingo .lingo-card .button {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#app .lingo .lingo-card .img-lingo img {
+  width: 200px;
+  height: 155px;
+  margin-left: 100px;
+}
+#news .title .card button {
+  width: 320px;
+  height: 50px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 30px;
+  color: #d43157;
+  border: #d43157 1px solid;
+}
+#news {
+  margin-top: 100px;
+}
+#news .title .card button:hover {
+  color: #000000;
+  border: #000000 1px solid;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+#news .title .card .card-body b {
+  color: #d43157;
+}
+#news .title .card .card-body h5 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+#news .title .card .card-body p {
+  opacity: 0.7;
+}
+footer {
+  background-color: #333132;
+  width: 100%;
+  height: 1000px;
+  margin-top: 100px;
+}
+#top .text h1 {
+  color: white;
+  margin-top: 30px;
+}
+#top .button input {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+}
+#top .button button {
+  color: white;
+  background-color: #d43157;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+#top .button button:hover {
+  background-color: #751f33;
+}
+#top .foot-up {
+  border: 1px solid white;
+  height: 200px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+#main .about {
+  display: flex;
+  gap: 30px;
+}
+#main .for-you li {
+  list-style: none;
+  color: white;
+  margin-top: 10px;
+}
+#main .for-you {
+  margin-top: 30px;
+}
+#main .for-you li a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+#main .for-you li a:hover {
+  opacity: 0.7;
+}
+#download {
+  margin-top: 50px;
+}
+#download .app h2 {
+  color: white;
+}
+#download .app .buttons {
+  margin-top: 20px;
+}
+#download .app .buttons button {
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+#download .app .buttons button:hover {
+  background-color: white;
+}
+#download .app .sosial {
+  margin-left: 50px;
+  gap: 10px;
+  display: flex;
+  cursor: pointer;
+}
+#download .app .sosial i {
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 20px;
+  transition: 0.3s;
+}
+#download .app .sosial i:hover {
+  opacity: 0.7;
+}
+#download .app {
+  border: 1px solid white;
+  height: 200px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+#support .image {
+  color: white;
+  margin-top: 10px;
+}
+#support .image img {
+  width: 100px;
+  height: 90px;
+}
